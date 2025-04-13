@@ -10,14 +10,14 @@ aginx 1.26(测试环境)
 --
 
 2.部署须知
-数据全部存储与evu.js文件中
+数据全部存储与env.js文件中
 用户自行修改
 --
 
 3.部署教程
 --
 *方案一*
-修改evu.js将整套源码直接上传到服务器直接访问即可
+修改env.js将整套源码直接上传到服务器直接访问即可
 --
 *方案二*
 使用各大pages服务（如 cloudflare pages  github pages  edgeone pages）
