@@ -7,12 +7,12 @@
 
 1.部署要求
 aginx 1.26(测试环境)
---
+
 
 2.部署须知
 数据全部存储与evu.js文件中
 用户自行修改
---
+
 
 3.部署教程
 *方案一*
@@ -22,8 +22,9 @@ aginx 1.26(测试环境)
 #注意
 使用pages服务建议将env.js通过可靠支链网盘保存 再修改各个文件中的引用链接 方便后续修改
 公益外链[Dpan](https://pan.pldduck.top)
+
+
 --
-
-
 ©2025 D工作室&duck
 ©2025 [原仓库](https://github.com/JERRY-SYSTEM/Glow_Team)
+--
