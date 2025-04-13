@@ -13,16 +13,16 @@ oneuiapp = ["./oneui.app.min-5.8.js"];
  */
 
 //网站标题
-dctitle = "xx团队官网";
+dctitle = "D的世界";
 
 //网站关键字，用空格分隔
-keywords = "xx团队 xx工作室";
+keywords = "D的世界 D工作室 d工作室";
 
 //网站介绍
-descrp = "xx团队的官网";
+descrp = "D工作室的官网";
 
 //网站图标
-ico = "https://";
+ico = "https://www.pldduck.top/favicon.ico";
 
 //备案号
 beiancode = "无备案";
@@ -45,13 +45,13 @@ banie = true;
  */
 
 //团队名称
-teamname = "xx团队";
+teamname = "D工作室";
 
 //建立年份
-teamday = "2022";
+teamday = "2024";
 
 //网站左上角处名称
-headtitle = "xx团队官网";
+headtitle = "D工作室官网";
 
 //网站顶端跳转按钮，每个数组内第一个元素为板块，第二个为font-awesome图标，第三个为名字
 //第一个topd为首页，不可删除
@@ -65,11 +65,11 @@ blk1bg = "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02
 jrsc = "江天一色无纤尘，皎皎空中孤月轮。";
 
 //网站第一板块子标题
-blk1stitle = "Nothing";
+blk1stitle = "D工作室的主站点";
 
 //弹窗内容
 //标题，文字(\n换行)
-aler = ["欢迎~","你好鸭\n欢迎访问"];
+aler = ["欢迎~","这是D工作室的主站点\n这是一个基于停更项目二次开发的开源项目"];
 
 //About模块内容
 //首页图下面4个图标对应的文字
@@ -77,23 +77,23 @@ aler = ["欢迎~","你好鸭\n欢迎访问"];
 aboutmod = [
   [
     "fa fa-boxes",
-    "标题一",
-    "内容一"
+    "我们擅长",
+    "静态网页开发和基础PHP使用"
   ],
   [
     "fa fa-laptop-code",
-    "标题二",
-    "内容二"
+    "不专业网页开发",
+    "如果你愿意相信我们..."
   ],
   [
     "fa fa-cloud",
-    "标题三",
-    "内容三"
+    "我们正在努力学习中",
+    "永远在学习的路上"
   ],
   [
     "fa fa-user-lock",
-    "标题四",
-    "内容四"
+    "穷!",
+    "我们只为网站配备了一台2H2G3M腾讯轻量云 请各位高手手下留情"
   ]
 ];
 
@@ -110,7 +110,7 @@ contacts = [
   [
     "fab fa-google",
     "邮箱",
-    "mailto:xxx@example.com"
+    "mailto:duck@pldduck.top"
   ]
 ];
 
@@ -125,16 +125,16 @@ contacts = [
 //每个项依次写：图片URL，名称，简介，链接
 flinks = [
   [
-    "https://www.baidu.com/favicon.ico",
-    "示例(百度1)",
-    "懂得都懂",
-    "https://baidu.com"
+    "https://cloud.tencent.com/favicon.ico",
+    "腾讯云",
+    "有亿点点black心的大厂",
+    "https://cloud.tencent.com"
   ],
   [
-    "https://www.baidu.com/favicon.ico",
-    "示例(百度2)",
-    "懂得都懂",
-    "https://baidu.com"
+    "https://www.pldduck.top/favicon.ico",
+    "等着你来登陆",
+    "联系duck吧！",
+    "https://www.pldduck.top"
   ]
 ];
 
@@ -144,26 +144,16 @@ flinks = [
 memb = [
   [
     "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-    "https://q.qlogo.cn/headimg_dl?dst_uin=1814669296&spec=640",
-    "XXX",
-    "成员1",
+    "https://q.qlogo.cn/headimg_dl?dst_uin=2472652060&spec=640",
+    "duck",
+    "不太爱管事的懒惰程序员",
     [
-      "88888888",
-      "https://baidu.com",
-      "xxx@example.com"
-    ]
-  ],
-  [
-    "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-    "https://q.qlogo.cn/headimg_dl?dst_uin=1814669296&spec=640",
-    "XXX",
-    "成员2",
-    [
-      "https://wpa.qq.com/msgrd?v=3&uin=888888&site=qq&menu=yes&jumpflag=1",
-      "https://baidu.com",
-      "xxx@example.com"
+      "2472652060",
+      "https://www.pldduck.top",
+      "duck@pldduck.top"
     ]
   ]
+
 ];
 
 //动态
@@ -171,98 +161,30 @@ memb = [
 zone = [
   [
     "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-    "2022-12-13",
-    "事件1"
-  ],
-  [
-    "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-    "2022-12-13",
-    "事件2"
-  ],
-  [
-    "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-    "2022-12-13",
-    "事件3"
-  ],
-  [
-    "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-    "2022-12-13",
-    "事件4"
-  ],
-  [
-    "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-    "2022-12-13",
-    "事件5"
+    "2025-4-13",
+    "这套新源码正式服役"
   ]
+
 ];
 
 //作品
 //最核心部分！！！
-//每个项依次写：图片URL，时间，标题，简介，网址，[类型，价格，版本，状态(正常true异常false)，下载直链]，[内容背景，作品详细介绍，[图片3张]]
-//作品详细介绍用\n换行，$s$xxx1$s$表示xxx1加粗，$i$xxx2$i$表示xxx2斜体，$m$xxx3$m$表示xxx3高亮，$d$xxx4$d$表示xxx4加删除线，
-//$r$xxx5$r$表示xxx5红色，$b$xxx6$b$表示xxx6蓝色。
+//每个项依次写：图片URL，时间，标题，简介，网址，[类型]
 cont = [
   [
     "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-    "2023-12-13 14:15:16",
-    "标题",
-    "简介",
-    "https://baidu.com",
-    [
-      "网站",
-      "0",
-      "1.0",
-      false,
-      "https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png"
-    ],
-    [
-      "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-      "$s$xxx1$s$表示xxx1加粗\n$i$xxx2$i$表示xxx2斜体\n$m$xxx3$m$表示xxx3高亮\n$d$xxx4$d$表示xxx4加删除线\n$r$xxx5$r$表示xxx5红色\n$b$xxx6$b$表示xxx6蓝色。",
-      "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-      "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-      "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png"
-    ]  
+    "2024-12-23", 
+    "Dai",
+    "公益的在线免登录模型ai在线体验网站", 
+    "https://ai.pldduck.top",
+    ["AI工具"]
   ],
   [
-    "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-    "2023-12-18 14:15:16",
-    "标题",
-    "简介",
-    "https://baidu.com",
-    [
-      "网站",
-      "0",
-      "1.0",
-      false,
-      "https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png"
-    ],
-    [
-      "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-      "$s$xxx1$s$表示xxx1加粗\n$i$xxx2$i$表示xxx2斜体\n$m$xxx3$m$表示xxx3高亮\n$d$xxx4$d$表示xxx4加删除线\n$r$xxx5$r$表示xxx5红色\n$b$xxx6$b$表示xxx6蓝色。",
-      "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-      "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-      "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png"
-    ]  
-  ],
-  [
-    "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-    "2023-12-23 14:15:16",
-    "标题",
-    "简介",
-    "https://baidu.com",
-    [
-      "网站",
-      "0",
-      "1.0",
-      false,
-      "https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png"
-    ],
-    [
-      "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-      "$s$xxx1$s$表示xxx1加粗\n$i$xxx2$i$表示xxx2斜体\n$m$xxx3$m$表示xxx3高亮\n$d$xxx4$d$表示xxx4加删除线\n$r$xxx5$r$表示xxx5红色\n$b$xxx6$b$表示xxx6蓝色。",
-      "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-      "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
-      "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png"
-    ]  
+    "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png", 
+    "2024-12-24",
+    "示例项目",
+    "这是一个示例项目,确保作品列表非空",
+    "https://example.com",
+    ["示例"]
   ]
 ];

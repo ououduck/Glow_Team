@@ -164,13 +164,22 @@ $(function(){
   if (modules.includes("work")) {
     for (var wk in cont) {
       $("#work .content>.row").append(`
-        <div class="col-lg-4">
-          <a class="block block-rounded block-link-pop overflow-hidden" href="./works.html?id=${wk}">
-            <img class="img-fluid" src="${cont[wk][0]}" alt="${cont[wk][2]}">
-            <div class="block-content">
-              <h4 class="mb-1">${cont[wk][2]}</h4>
-              <p class="fs-sm fw-medium mb-2">&bull; <strong>${cont[wk][1]}</strong> &bull;</p>
-              <p class="fs-sm text-muted">${cont[wk][3]}</p>
+        <div class="col-lg-4 col-md-6 py-2">
+          <a class="block block-rounded block-link-pop overflow-hidden h-100 bg-body-light" href="${cont[wk][4]}" target="_blank">
+            <div class="block-content p-0">
+              <img class="img-fluid w-100" style="height: 200px; object-fit: cover;" src="${cont[wk][0]}" alt="${cont[wk][2]}">
+            </div>
+            <div class="block-content py-3">
+              <div class="mb-1">
+                <span class="badge bg-primary">${cont[wk][5][0]}</span>
+              </div>
+              <h4 class="h5 mb-2">${cont[wk][2]}</h4>
+              <p class="fs-sm text-muted mb-2">
+                <i class="far fa-clock opacity-50 me-1"></i> ${cont[wk][1]}
+              </p>
+              <p class="fs-sm text-muted mb-0">
+                ${cont[wk][3]}
+              </p>
             </div>
           </a>
         </div>
