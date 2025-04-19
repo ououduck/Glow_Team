@@ -25,7 +25,7 @@ descrp = "D工作室的官网";
 ico = "https://www.pldduck.top/favicon.ico";
 
 //备案号
-beiancode = "无备案";
+beiancode = "湘ICP备2025101669号-2";
 
 //添加板块：特点feature，一言hito，作品work，动态zone，成员member，联系contact，把不要的删除
 modules = ["feature","hito","work","zone","member","contact","flinks","gallery"];
@@ -48,7 +48,7 @@ banie = true;
 teamname = "D工作室";
 
 //建立年份
-teamday = "2024";
+teamday = "2025";
 
 //网站左上角处名称
 headtitle = "D工作室官网";
@@ -62,14 +62,14 @@ blk1bg = "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02
 
 //今日诗词
 //如果jrsc内容为api，则调用今日诗词API，否则为所填内容
-jrsc = "江天一色无纤尘，皎皎空中孤月轮。";
+jrsc = "https://whyta.cn/api/shici?key=36de5db81215";
 
 //网站第一板块子标题
 blk1stitle = "D工作室的主站点";
 
 //弹窗内容
 //标题，文字(\n换行)
-aler = ["欢迎~","这是D工作室的主站点\n这是一个基于停更项目二次开发的开源项目"];
+aler = ["欢迎来到D的日记~","D的日记是D工作室的主站点\n这是一个基于停更项目二次开发的开源项目\n此项目目前已在GitHub完全开源\n感谢你的访问"];
 
 //About模块内容
 //首页图下面4个图标对应的文字
@@ -181,10 +181,10 @@ cont = [
   ],
   [
     "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png", 
-    "2024-12-24",
-    "示例项目",
-    "这是一个示例项目,确保作品列表非空",
-    "https://example.com",
-    ["示例"]
+    "2025-4-11",
+    "Dblog",
+    "D工作室基于typecho和自研主题的官方博客",
+    "https://blog.pldduck.top",
+    ["博客"]
   ]
 ];

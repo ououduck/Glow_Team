@@ -8,6 +8,7 @@
   <meta name="description" content="">
   <link rel="shortcut icon" href="">
   <link rel="stylesheet" id="css-main" href="./oneui.min-5.8.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <script src="https://npm.elemecdn.com/jquery@3.6.0/dist/jquery.min.js"></script>
   <script src="./env.js"></script>
 </head>
@@ -172,6 +173,9 @@
               <a href="https://beian.miit.gov.cn" target="_blank" class="text fw-semibold"><span class="badge bg-success">
                   <i class="fa fa-location-arrow me-1"></i></span>
               </a>
+              <a href="https://github.com/ououduck/Glow_Team" target="_blank" class="text fw-semibold ms-2"><span class="badge bg-primary">
+                  <i class="fab fa-github me-1"></i> GitHub</span>
+              </a>
             </div>
           </div>
         </div>
@@ -180,14 +184,32 @@
     </main>
     <!--访问时提示框-->
     <button type="button" data-bs-toggle="modal" data-bs-target="#welmodal" style="display: none;"></button>
-    <div class="modal fade" id="welmodal" tabindex="-1" aria-labelledby="welmodal" style="display: none;" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-popout" role="document"><div class="modal-content"><div class="block block-rounded block-transparent mb-0"><div class="block-header block-header-default">
-        <h3 class="block-title"></h3>
-        <div class="block-options"><button type="button" class="btn-block-option" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-fw fa-times"></i></button></div>
+    <div class="modal fade" id="welmodal" tabindex="-1" aria-labelledby="welmodal" style="display: none;" aria-hidden="true" data-bs-backdrop="static">
+      <div class="modal-dialog modal-dialog-popout modal-dialog-centered" role="document">
+        <div class="modal-content shadow-lg">
+          <div class="block block-rounded block-transparent mb-0">
+            <div class="block-header block-header-default bg-primary-dark">
+              <h3 class="block-title text-white"></h3>
+              <div class="block-options">
+                <button type="button" class="btn-block-option" data-bs-dismiss="modal" aria-label="Close">
+                  <i class="fa fa-fw fa-times text-white"></i>
+                </button>
+              </div>
+            </div>
+            <div class="block-content fs-sm p-4">
+              <div class="animate__animated animate__fadeIn">
+                <!-- Content will be inserted here -->
+              </div>
+            </div>
+            <div class="block-content block-content-full text-end bg-body-light p-3">
+              <button type="button" class="btn btn-alt-primary" data-bs-dismiss="modal">
+                <i class="fa fa-check me-1"></i> 确定
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="block-content fs-sm"></div>
-      <div class="block-content block-content-full text-end bg-body"><button type="button" class="btn btn-sm btn-primary" data-bs-dismiss="modal">OK</button></div>
-    </div></div></div></div>
+    </div>
   </div>
   <!--Slick插件--><link rel="stylesheet" href="https://jprorwxhnlrnlj5q-static.micyjz.com/develop/YGKfApUWNUSO-brpKfUsDEhyO-GvUApKfKKUAU-jjBqrKjjnrorriklilr-jiBqrKjjiijroiqijjr/slick.css"><link rel="stylesheet" href="https://iqrorwxhnlrnlj5q-static.micyjz.com/develop/YGKfApUWNUSO-bgKfUANsZWTt-GvUApKfKKUAU-jnBqrKjjnroriioiqrr-jiBqrKjjiijroiqijjr/slick-theme.css"><script src="https://imrorwxhlnqqln5p-static.micyjz.com/develop/evUKpAfMaYJE-rdUKApDISRZO-GvUApKfKKUAU-jpBorKkjjrkiiilnjrm-joBqrKkjnrpiniojpii/slick.min.js"></script>
   <script src="./index.js"></script>

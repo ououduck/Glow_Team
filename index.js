@@ -192,5 +192,21 @@ $(function(){
   for (var al in alerli) {
     $("#welmodal .block-content.fs-sm").append("<p>" + alerli[al] + "</p>");
   }
-  setTimeout(function(){$('button[data-bs-target="#welmodal"]').click();},300);
+
+  // 添加Modal动画
+  $('#welmodal').on('show.bs.modal', function () {
+    $(this).find('.modal-content').addClass('animate__animated animate__zoomIn');
+  });
+
+  $('#welmodal').on('hide.bs.modal', function () {
+    $(this).find('.modal-content').addClass('animate__animated animate__zoomOut');
+  });
+
+  $('#welmodal').on('hidden.bs.modal', function () {
+    $(this).find('.modal-content').removeClass('animate__animated animate__zoomOut animate__zoomIn');
+  });
+
+  setTimeout(function(){
+    $('button[data-bs-target="#welmodal"]').click();
+  }, 300);
 });
