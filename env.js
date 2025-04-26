@@ -62,7 +62,7 @@ blk1bg = "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02
 
 //今日诗词
 //如果jrsc内容为api，则调用今日诗词API，否则为所填内容
-jrsc = "https://whyta.cn/api/shici?key=36de5db81215";
+jrsc = "D的世界-D工作室的主站点";
 
 //网站第一板块子标题
 blk1stitle = "D工作室的主站点";
