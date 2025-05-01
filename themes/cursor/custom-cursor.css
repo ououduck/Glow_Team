@@ -1,0 +1,39 @@
+/* 默认光标 */
+body {
+  cursor: url('./custom-cursor.svg') 16 16, auto;
+}
+
+/* 可点击元素 */
+a, button, [role="button"], .btn, [data-toggle], [data-bs-toggle] {
+  cursor: url('./cursor-click.svg') 16 16, pointer !important;
+}
+
+/* 文本选择 */
+p, h1, h2, h3, h4, h5, h6, input, textarea {
+  cursor: url('./cursor-text.svg') 8 12, text;
+}
+
+/* 禁用状态 */
+button:disabled, .disabled, [disabled] {
+  cursor: not-allowed !important;
+}
+
+/* 拖拽状态 */
+[draggable="true"] {
+  cursor: move;
+}
+
+/* 调整大小 */
+.resizable {
+  cursor: nw-resize;
+}
+
+/* 等待状态 */
+.loading, .processing {
+  cursor: wait;
+}
+
+/* 帮助提示 */
+[title], [data-tooltip] {
+  cursor: help;
+}
