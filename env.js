@@ -48,7 +48,7 @@ banie = true;
 teamname = "D工作室";
 
 //建立年份
-teamday = "2025";
+teamday = "2024";
 
 //网站左上角处名称
 headtitle = "D工作室官网";
@@ -69,7 +69,7 @@ blk1stitle = "D工作室的主站点";
 
 //弹窗内容
 //标题，文字(\n换行)
-aler = ["欢迎来到D的日记~","D的日记是D工作室的主站点\n这是一个基于停更项目二次开发的开源项目\n此项目目前已在GitHub完全开源\n感谢你的访问"];
+aler = ["欢迎来到D的世界~","D的世界是D工作室的主站点\n这是一个基于停更项目二次开发的开源项目(原作者不知为何停更了)\n所以我决定继续优化这个项目\n此项目目前已在GitHub完全开源\n感谢你的访问"];
 
 //About模块内容
 //首页图下面4个图标对应的文字
@@ -174,17 +174,17 @@ cont = [
   [
     "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png",
     "2024-12-23", 
-    "Dai",
-    "公益的在线免登录模型ai在线体验网站", 
-    "https://ai.pldduck.top",
-    ["AI工具"]
+    "Dblog",
+    "基于typecho和D工作室自研主题的官方博客", 
+    "https://blog.pldduck.top",
+    ["博客"]
   ],
   [
     "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png", 
-    "2025-4-11",
-    "Dblog",
-    "D工作室基于typecho和自研主题的官方博客",
-    "https://blog.pldduck.top",
-    ["博客"]
+    "2025-7-25",
+    "Dpic1",
+    "二次元随机图片API",
+    "https://pic1.pldduck.top",
+    ["图片API"]
   ]
 ];
