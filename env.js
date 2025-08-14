@@ -131,12 +131,6 @@ flinks = [
     "https://cloud.tencent.com"
   ],
   [
-    "https://cloud.tencent.com/favicon.ico",
-    "热忱云",
-    "D工作室认为不错的云服务商",
-    "https://rcvps.cn/aff/PSIWWMOB"
-  ],  
-  [
     "https://www.pldduck.top/favicon.ico",
     "等着你来登陆",
     "联系duck吧！",
