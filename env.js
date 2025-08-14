@@ -131,6 +131,12 @@ flinks = [
     "https://cloud.tencent.com"
   ],
   [
+    "https://cloud.tencent.com/favicon.ico",
+    "热忱云",
+    "D工作室认为不错的云服务商",
+    "https://rcvps.cn/aff/PSIWWMOB"
+  ],  
+  [
     "https://www.pldduck.top/favicon.ico",
     "等着你来登陆",
     "联系duck吧！",
@@ -182,9 +188,9 @@ cont = [
   [
     "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png", 
     "2025-7-25",
-    "Dpic1",
-    "二次元随机图片API",
-    "https://pic1.pldduck.top",
-    ["图片API"]
+    "Ddomain",
+    "免费二级域名",
+    "https://domain.pldduck.top",
+    ["二级域名"]
   ]
 ];
