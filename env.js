@@ -186,13 +186,5 @@ cont = [
     "免费二级域名",
     "https://domain.pldduck.top",
     ["二级域名"]
-  ],
-  [
-    "https://npm.elemecdn.com/zxmacc-staticr@v1.0.5/images/background/day02.png", 
-    "2025-8-18",
-    "Dshop",
-    "超多实惠的好产品 来看看吧",
-    "https://shop.pldduck.top",
-    ["小店"]
   ]
 ];
